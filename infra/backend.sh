@@ -28,7 +28,7 @@ apt install -y snapd
 snap install go --classic --channel=1.18/stable
 go version
 
-cd $HOME ; git clone -v https://AUTH_TOKEN@github.com/acasv/microservice-app-example.git
+cd $HOME ; git clone -v https://github.com/acasv/microservice-app-example.git
 
 echo "---------------------------------Building Users-api---------------------------------"
 cd $HOME/microservice-app-example/users-api/
