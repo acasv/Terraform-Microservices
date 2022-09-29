@@ -10,7 +10,7 @@ sudo apt-get install -y nodejs
 npm install pm2
 node -v ; npm -v
 
-cd $HOME ; git clone -v https://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@github.com/acasv/microservice-app-example.git
+cd $HOME ; git clone -v https://AUTH_TOKEN@github.com/acasv/microservice-app-example.git
 
 echo "---------------------------------Building Frontend---------------------------------"
 cd $HOME/microservice-app-example/frontend/
